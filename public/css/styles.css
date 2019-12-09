@@ -1,0 +1,58 @@
+#sidebar {
+  color: #fff;
+  min-width: 320px;
+  max-width: 320px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* top layer */
+  z-index: 9999;
+  background-color: #343739;
+}
+#sidebar .upper-section {
+  padding: 1.5rem 1.5rem;
+  background-color: #2e0653;
+}
+#sidebar .username {
+  font-family: 'PT Serif', serif;
+}
+#sidebar .account-actions {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+#sidebar .diffused-white {
+  color: rgba(255, 255, 255, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+#sidebar nav.vertical-menu ul li {
+  padding: 1rem 1.5rem 1rem 2.5rem;
+}
+#sidebar nav.vertical-menu ul li.active {
+  padding-left: 2rem;
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+  border-left: 5px solid aqua;
+}
+body {
+  background-color: #2e0653;
+  color: #fff;
+}
+body .main-container {
+  margin-top: 100px;
+}
+body .main-container .btn-theme {
+  color: #fff;
+  background: -moz-linear-gradient(45deg, #f000ba 0%, #ff3d95 100%);
+  background: -webkit-linear-gradient(45deg, #f000ba 0%, #ff3d95 100%);
+  background: -o-linear-gradient(45deg, #f000ba 0%, #ff3d95 100%);
+  background: -ms-linear-gradient(45deg, #f000ba 0%, #ff3d95 100%);
+  background: linear-gradient(45deg, #f000ba 0%, #ff3d95 100%);
+}
+body .main-container .alert-content {
+  margin: 0px auto;
+}
+body .main-container .button-wrapper {
+  margin: 0px auto;
+}
+body footer {
+  margin-top: 120px;
+}
